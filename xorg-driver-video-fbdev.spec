@@ -1,5 +1,5 @@
 Summary:	X.org video driver for framebuffer device
-Summary(pl.UTF-8):   Sterownik obrazu X.org dla framebuffera
+Summary(pl.UTF-8):	Sterownik obrazu X.org dla framebuffera
 Name:		xorg-driver-video-fbdev
 Version:	0.3.1
 Release:	1
