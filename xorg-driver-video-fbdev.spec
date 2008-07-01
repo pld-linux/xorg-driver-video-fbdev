@@ -2,7 +2,7 @@ Summary:	X.org video driver for framebuffer device
 Summary(pl.UTF-8):	Sterownik obrazu X.org dla framebuffera
 Name:		xorg-driver-video-fbdev
 Version:	0.4.0
-Release:	1
+Release:	2
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-video-fbdev-%{version}.tar.bz2
