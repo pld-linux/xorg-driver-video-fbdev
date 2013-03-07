@@ -1,0 +1,18 @@
+--- xf86-video-fbdev-0.4.3/src/fbdev.c.old	2013-03-07 15:38:31.825061438 +0100
++++ xf86-video-fbdev-0.4.3/src/fbdev.c	2013-03-07 15:38:59.112150094 +0100
+@@ -14,7 +14,6 @@
+ #include "xf86_OSproc.h"
+ 
+ #include "mipointer.h"
+-#include "mibstore.h"
+ #include "micmap.h"
+ #include "colormapst.h"
+ #include "xf86cmap.h"
+@@ -845,7 +844,6 @@ FBDevScreenInit(SCREEN_INIT_ARGS_DECL)
+ 	}
+ 
+ 	xf86SetBlackWhitePixels(pScreen);
+-	miInitializeBackingStore(pScreen);
+ 	xf86SetBackingStore(pScreen);
+ 
+ 	/* software cursor */
